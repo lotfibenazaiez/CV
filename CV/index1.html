@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template one</title>
+    <title>Lotfi Benazaiez</title>
      <!--Render all Elements normally-->
     <link rel="stylesheet" href="CSS/Normalize.css">
      <!--File css-->
@@ -21,7 +21,7 @@
     <style>
       :root{
     --primaryColor:#ff274b;
-    --secondaryColor: #f7bcf7 ;
+    --secondaryColor: #f8f8f8 ;
     --lightColor: #ffffff ;
     --bgColor-1: #171a1c ;
     --bgColor-2: #22282a;
@@ -63,12 +63,11 @@ nav{ padding-top: 0.8rem;
     padding-right: var(--padding);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  position: fixed; 
-  width: 100%;
-background-color: #171a1c;
-z-index: 1;}
-nav #actions{margin-left: 460px; }
+        align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #171a1c;
+    z-index: 1; }
 nav ul li{  list-style-type: none;
             display: inline-block;
             margin: 0.8rem 0.8rem;}
@@ -79,7 +78,7 @@ nav ul li a{    color : var(--lightColor) ;
                 font-size: 16px; }
 nav ul li a:hover{
   color:var(--primaryColor);
-  text-transform :uppercase ;   }
+  font-size: 20px;   }
 .btn{   background-color : var(--primaryColor) ; 
         color :var(--lightColor);
         text-decoration : none ;
@@ -111,20 +110,16 @@ padding-right: 20px;}
                         align-self: flex-end;}
 .home .container-images img{ position: absolute;
                             bottom: 0; 
-                            height: 80%;
+                            height: 100%;
                             left: 50%;
                             transform: translateX(-50%);}
 .home .container-images:hover .shape{
     transition: 1s;
     bottom:90px;   }
 .pic  { height: 30px;}
-
-.home .container-images .pic {
-  left: 45%;}
 .home .container-images:hover .pic{
     transition: 1s;
-    bottom: 12%; 
-    left: 42%;  }
+    left: 45%; }
 /* ------------- About Section ------------- */
 .about{ background-color: var(--bgColor-2);
         padding: 2rem var(--padding);
@@ -132,8 +127,7 @@ padding-right: 20px;}
         align-items: center;
         justify-content: space-around;   }
 .about .container-images{ width: 35%;  }
-.about .container-images img{ width: 85%;
-margin-top: 10%;   }
+.about .container-images img{ width: 90%;   }
 .container-texts{ width: 35%; }
 .par{ text-align: justify;}
 /* ------------- Services Section ------------- */
@@ -157,9 +151,9 @@ margin-top: 10%;   }
             display: flex;
             align-items: center;
             justify-content: space-between;   }
-.skills .container-images{ width: 30%;  }
-.skills .container-images img{ width: 250px;
-margin-top: 25%; }
+.skills .container-images{ width: 35%;  }
+.skills .container-images img{ width: 350px; 
+margin-top: 110px;}
 .skills .container-skills{  width: 50%; }
 .content-skills{ display: flex;
                 flex-wrap: wrap;
@@ -488,7 +482,7 @@ footer .content-footer p{ width: 100%;}
     <li><a href="#About">Présentation</a></li>
     <li><a href="#Services">Performances</a></li>
     <li><a href="#Skills">Compétences</a></li>
-    <li><a href="#Contact">Contacte</a></li>
+    <li><a href="#Contact">Contact</a></li>
     </ul>
     <button id="menu">
       <span></span>
@@ -504,32 +498,32 @@ footer .content-footer p{ width: 100%;}
             <span>Opérateur de machine d'usinage</span> & <span>Développeur <font size='2'>(phase de formation)</font></span></h3>
         <a href="#" class="btn" id="CV">Télécharger CV</a>
         <div class="social">
-        <a href="https://github.com/lotfibenazaiez/CV.git" target="_blank"><img src="images/github.png" alt=""></a>
-        <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin_icon.png" alt=""></a>
-        <a href="https://fr-fr.facebook.com/" target="_blank"><img src="images/facebook_icon.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/benazaiez-lotfi-6143b3260/" target="_blank"><img src="images/linkedin_icon.png" alt=""></a>
+        <a href="https://www.facebook.com/lotfi.bazaiez.10" target="_blank"><img src="images/facebook_icon.png" alt=""></a>
         <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.png" alt=""></a>
+        <a href="https://github.com/lotfibenazaiez/CV.git" target="_blank"><img src="images/github.png" alt=""></a>
     </div>
   </div>
     <div class="container-images">
       <img src="images/leaf-shape.png" alt="" class="shape"/>
-      <img src="images/mypic2.png" alt="" class="pic"/>
+      <img src="images/me1.png" alt="" class="pic"/>
     </div>
     </div>
   </div>
 </section>
 <section id="About" class="about">
   <div class="container-images">
-    <img src="images/MyPic.png" alt="" >
+    <img src="images/mypic.png" alt="">
   </div>
   <div class="container-texts">
     <h1 align="center">Ma <span> Présentation</span></h1>
     <h5><span>Comptable # Technicien administratif #
       Opérateur de machine d'usine # Développeur <font size='2'>(en cours de formation)</font></span></h5>
     <p class="par">
-      <p> *- Comptable expérimenté, excellente capacité à gérer les moindres détails de son travail de manière méthodique et organisée , la préparation des déclarations fiscales et sociales et le respect des règlements.</p>
-      <p> *- Technicien en bureautique et gestion des technologies de l'information, une connaissance approfondie de diverses applications telles qu'Excel, Word, PowerPoint et Photoshop.</p>
-      <p> *- Forte expérience en tant qu'opérateur de machines d'usinage, acquise dans le secteur de l'imprimerie. Grande aptitude à gérer les machines d'usine avec professionnalisme et vigilance.</p>
-      <p> *- Mes efforts individuels et continus dans l'apprentissage de la programmation renforcent ma perspective de devenir un programmeur hautement qualifié à l'avenir.</p>
+      <p class="par"> - Comptable expérimenté, excellente capacité à gérer les moindres détails de son travail de manière méthodique et organisée , la préparation des déclarations fiscales et sociales et le respect des règlements.</p>
+      <p class="par"> - Technicien en bureautique et gestion des technologies de l'information, une connaissance approfondie de diverses applications telles qu'Excel, Word, PowerPoint et Photoshop.</p>
+      <p class="par"> - Forte expérience en tant qu'opérateur de machines d'usinage, acquise dans le secteur de l'imprimerie. Grande aptitude à gérer les machines d'usine avec professionnalisme et vigilance.</p>
+      <p class="par"> - Mes efforts individuels et continus dans l'apprentissage de la programmation renforcent ma perspective de devenir un programmeur hautement qualifié à l'avenir.</p>
         <br>
         <h5><span>OBJECTIF</span></h5>
         <p class="par">
@@ -589,7 +583,7 @@ footer .content-footer p{ width: 100%;}
 </div>
   </div>
   <div class="container-images">
-    <img src="images/skills.jpg" alt="">
+    <img src="images/skills.png" alt="">
   </div>
 </section>
 <footer>
@@ -598,12 +592,12 @@ footer .content-footer p{ width: 100%;}
     <p><img src="images/gmail.png" style="width:2% ;" alt="">
       lotfibazaiez@gmail.com   - <img src="images/phone.png" style="width:2% ;" alt=""> (216) 97 43 31 55</p>
   <div class="contact">
-    <a href="https://github.com/lotfibenazaiez/CV.git" target="_blank"><img src="images/github.png" alt=""></a>
-    <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin_icon.png" alt=""></a>
-    <a href="https://fr-fr.facebook.com/" target="_blank"><img src="images/facebook_icon.png" alt=""></a>
+    <a href="https://www.google.com/account/about/?hl=fr" target="_blank"><img src="images/gmail.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/benazaiez-lotfi-6143b3260/" target="_blank"><img src="images/linkedin_icon.png" alt=""></a>
+    <a href="https://www.facebook.com/lotfi.bazaiez.10" target="_blank"><img src="images/facebook_icon.png" alt=""></a>
     <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.png" alt=""></a>
   </div>
-    <p class="end"> &#169; Droit d'auteur @LotfiBenazaiez</p>
+    <p class="end"> &#169; Droits d'auteur @LotfiBenazaiez</p>
   </div>
 </footer>
 
@@ -617,7 +611,7 @@ footer .content-footer p{ width: 100%;}
   menu.classList.toggle("is-active");
   action.classList.toggle("is-active"); }
   let CV=document.getElementById('CV');
-  CV.onclick=function() {window.location="https://pdf.ac/rF92V"}
+  CV.onclick=function() {window.location="https://l.messenger.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1SHH_VXd9-sPccN8m0X6HCBZwj7iraR8s%2Fview%3Fusp%3Ddrivesdk&h=AT0M1QaPusqQtfQ1QOmY0FoHatTwnZKy4_b6EXrwi3nG7gah9vKUwQvjhG4uIPiJFvH3Xtg6Wpw_Qt_ydjQIvFeJ6sP9vBTG2F6WtPS9cmudKmBfSl75ApgZHC6ovWLKFiliQA"}
 
   </script>
 </body>
