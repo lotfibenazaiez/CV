@@ -58,12 +58,17 @@ p{  color: var(--secondaryColor);
         background-color :var(--bgColor-1);
         display: flex;
         flex-direction: column;   }
-nav{ padding-top: 2.8rem;
+nav{ padding-top: 0.8rem;
     padding-left: var(--padding);
     padding-right: var(--padding);
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+  position: fixed; 
+  width: 100%;
+background-color: #171a1c;
+z-index: 1;}
+nav #actions{margin-left: 460px; }
 nav ul li{  list-style-type: none;
             display: inline-block;
             margin: 0.8rem 0.8rem;}
@@ -74,7 +79,7 @@ nav ul li a{    color : var(--lightColor) ;
                 font-size: 16px; }
 nav ul li a:hover{
   color:var(--primaryColor);
-  font-size: 20px;   }
+  text-transform :uppercase ;   }
 .btn{   background-color : var(--primaryColor) ; 
         color :var(--lightColor);
         text-decoration : none ;
@@ -106,16 +111,20 @@ padding-right: 20px;}
                         align-self: flex-end;}
 .home .container-images img{ position: absolute;
                             bottom: 0; 
-                            height: 100%;
+                            height: 80%;
                             left: 50%;
                             transform: translateX(-50%);}
 .home .container-images:hover .shape{
     transition: 1s;
     bottom:90px;   }
 .pic  { height: 30px;}
+
+.home .container-images .pic {
+  left: 45%;}
 .home .container-images:hover .pic{
     transition: 1s;
-    left: 45%; }
+    bottom: 12%; 
+    left: 42%;  }
 /* ------------- About Section ------------- */
 .about{ background-color: var(--bgColor-2);
         padding: 2rem var(--padding);
@@ -123,7 +132,8 @@ padding-right: 20px;}
         align-items: center;
         justify-content: space-around;   }
 .about .container-images{ width: 35%;  }
-.about .container-images img{ width: 90%;   }
+.about .container-images img{ width: 85%;
+margin-top: 10%;   }
 .container-texts{ width: 35%; }
 .par{ text-align: justify;}
 /* ------------- Services Section ------------- */
@@ -147,8 +157,9 @@ padding-right: 20px;}
             display: flex;
             align-items: center;
             justify-content: space-between;   }
-.skills .container-images{ width: 35%;  }
-.skills .container-images img{ width: 350px; }
+.skills .container-images{ width: 30%;  }
+.skills .container-images img{ width: 250px;
+margin-top: 25%; }
 .skills .container-skills{  width: 50%; }
 .content-skills{ display: flex;
                 flex-wrap: wrap;
@@ -493,22 +504,22 @@ footer .content-footer p{ width: 100%;}
             <span>Opérateur de machine d'usinage</span> & <span>Développeur <font size='2'>(phase de formation)</font></span></h3>
         <a href="#" class="btn" id="CV">Télécharger CV</a>
         <div class="social">
+        <a href="https://github.com/lotfibenazaiez/lotfibenazaiez" target="_blank"><img src="images/github.png" alt=""></a>
         <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin_icon.png" alt=""></a>
         <a href="https://fr-fr.facebook.com/" target="_blank"><img src="images/facebook_icon.png" alt=""></a>
         <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.png" alt=""></a>
-        <a href="https://www.google.com/account/about/?hl=fr" target="_blank"><img src="images/gmail.png" alt=""></a>
     </div>
   </div>
     <div class="container-images">
       <img src="images/leaf-shape.png" alt="" class="shape"/>
-      <img src="images/me1.png" alt="" class="pic"/>
+      <img src="images/mypic2.png" alt="" class="pic"/>
     </div>
     </div>
   </div>
 </section>
 <section id="About" class="about">
   <div class="container-images">
-    <img src="images/mypic2.png" alt="">
+    <img src="images/MyPic.png" alt="" >
   </div>
   <div class="container-texts">
     <h1 align="center">Ma <span> Présentation</span></h1>
@@ -578,7 +589,7 @@ footer .content-footer p{ width: 100%;}
 </div>
   </div>
   <div class="container-images">
-    <img src="images/skills.png" alt="">
+    <img src="images/skills.jpg" alt="">
   </div>
 </section>
 <footer>
@@ -586,7 +597,7 @@ footer .content-footer p{ width: 100%;}
     <h2>Lotfi <span>Benazaiez</span></h2>
     <p>lotfibazaiez@gmail.com   - Tél.: (216) 97 43 31 55</p>
   <div class="contact">
-    <a href="https://www.google.com/account/about/?hl=fr" target="_blank"><img src="images/gmail.png" alt=""></a>  
+    <a href="https://github.com/lotfibenazaiez/lotfibenazaiez" target="_blank"><img src="images/github.png" alt=""></a>
     <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin_icon.png" alt=""></a>
     <a href="https://fr-fr.facebook.com/" target="_blank"><img src="images/facebook_icon.png" alt=""></a>
     <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.png" alt=""></a>
