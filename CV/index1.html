@@ -110,16 +110,21 @@ padding-right: 20px;}
                         align-self: flex-end;}
 .home .container-images img{ position: absolute;
                             bottom: 0; 
-                            height: 100%;
+                            /* height: 100%; */
                             left: 50%;
                             transform: translateX(-50%);}
+.home .container-images .shape {
+  height: 80%; }
 .home .container-images:hover .shape{
     transition: 1s;
     bottom:90px;   }
-.pic  { height: 30px;}
+.home .container-images .pic {
+  height: 90%;
+}
 .home .container-images:hover .pic{
     transition: 1s;
-    left: 45%; }
+    left: 40%;
+    bottom:85px }
 /* ------------- About Section ------------- */
 .about{ background-color: var(--bgColor-2);
         padding: 2rem var(--padding);
@@ -506,14 +511,14 @@ footer .content-footer p{ width: 100%;}
   </div>
     <div class="container-images">
       <img src="images/leaf-shape.png" alt="" class="shape"/>
-      <img src="images/me1.png" alt="" class="pic"/>
+      <img src="images/mypic1.png" alt="" class="pic"/>
     </div>
     </div>
   </div>
 </section>
 <section id="About" class="about">
   <div class="container-images">
-    <img src="images/mypic.png" alt="">
+    <img src="images/mypic2.png" alt="">
   </div>
   <div class="container-texts">
     <h1 align="center">Ma <span> Présentation</span></h1>
@@ -590,7 +595,7 @@ footer .content-footer p{ width: 100%;}
   <div id="Contact" class="content-footer" align="center">
     <h2>Lotfi <span>Benazaiez</span></h2>
     <p><img src="images/gmail.png" style="width:2% ;" alt="">
-      lotfibazaiez@gmail.com   - <img src="images/phone.png" style="width:2% ;" alt=""> (216) 97 43 31 55</p>
+      lotfibazaiez@gmail.com   - <img src="images/phone.png" style="width:2% ;" alt=""> (+216) 97 43 31 55</p>
   <div class="contact">
     <a href="https://www.google.com/account/about/?hl=fr" target="_blank"><img src="images/gmail.png" alt=""></a>
     <a href="https://www.linkedin.com/in/benazaiez-lotfi-6143b3260/" target="_blank"><img src="images/linkedin_icon.png" alt=""></a>
@@ -611,8 +616,7 @@ footer .content-footer p{ width: 100%;}
   menu.classList.toggle("is-active");
   action.classList.toggle("is-active"); }
   let CV=document.getElementById('CV');
-  CV.onclick=function() {window.location="https://l.messenger.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1SHH_VXd9-sPccN8m0X6HCBZwj7iraR8s%2Fview%3Fusp%3Ddrivesdk&h=AT0M1QaPusqQtfQ1QOmY0FoHatTwnZKy4_b6EXrwi3nG7gah9vKUwQvjhG4uIPiJFvH3Xtg6Wpw_Qt_ydjQIvFeJ6sP9vBTG2F6WtPS9cmudKmBfSl75ApgZHC6ovWLKFiliQA"}
-
+  CV.onclick=function() {window.location="https://drive.google.com/file/d/1SHH_VXd9-sPccN8m0X6HCBZwj7iraR8s/view"}
   </script>
 </body>
 </html>
